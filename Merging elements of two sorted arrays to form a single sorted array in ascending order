@@ -1,45 +1,47 @@
 #include<stdio.h>
 int main()
 {
-int a1[10], a2[10],a3[20];
-int l1, l2, l3;
-int i, j1 = 0, j2 = 0, j, t;
-printf(“Enter number of elements of first array”);
-scanf(“%d”, &l1);
-printf(“Enter the elements: ”);
-for (i = 0; i <l1; i++)
-scanf(“%d”, &a1[i]);
-printf(“Enter number of elements of second array:”);
-scanf(“%d”,l2);
-printf(“Enter the elements:”);
-for (i= 0;i <lt; l2; i++)
-scanf(“%d”, &a2[i]);
-l3= l1 +l2;
-for (i= 0; i<l3; i++)
-{
-if (l1 == j1) {
-for (i<l3; i++:j2++)
-a3[i]= a2[j2]; break;
-}
-if (l2 == j2) {
-for (i<l3;i++:j1++)
-a3[i] =a1[j1]; break;
-}
-printf(“\n%d”, “%d”, a1[j1], a2[j2]);
-if (a1[j1] &gt; a2[j2])
-{
-a3[i]= a2[j2];
-j2= j2+ 1;
-}
-else 
-{
-a3[i] =a1[j1];
-j1 =j1+ 1;
-}
-}
-printf(“\nArray after merging:”);
-for (i= 0;i< l3; i++)
-printf(“%d”, a3[i]);
-printf(“\n”);
-return 0;
+  int a1[10], a2[10],a3[20];
+  int l1, l2, l3;
+  int i, j1 = 0, j2 = 0, j, t;
+  printf(“Enter number of elements of first array”);
+  scanf(“%d”, &l1);
+  printf(“Enter the elements: ”);
+  for (i = 0; i <l1; i++)
+  scanf(“%d”, &a1[i]);
+  printf(“Enter number of elements of second array:”);
+  scanf(“%d”,l2);
+  printf(“Enter the elements:”);
+  for (i= 0;i <lt; l2; i++)
+  scanf(“%d”, &a2[i]);
+  l3= l1 +l2;
+  for (i= 0; i<l3; i++)
+  {
+    if (l1 == j1)
+    {
+     for (i<l3; i++:j2++)
+     a3[i]= a2[j2]; break;
+    }
+   if (l2 == j2) 
+   {
+      for (i<l3;i++:j1++)
+      a3[i] =a1[j1]; break;
+   }
+   printf(“\n%d”, “%d”, a1[j1], a2[j2]);
+   if (a1[j1] &gt; a2[j2])
+   {
+     a3[i]= a2[j2];
+     j2= j2+ 1;
+   }
+  else 
+  {
+    a3[i] =a1[j1];
+    j1 =j1+ 1;
+   }
+  }
+  printf(“\nArray after merging:”);
+  for (i= 0;i< l3; i++)
+  printf(“%d”, a3[i]);
+  printf(“\n”);
+  return 0;
 }
